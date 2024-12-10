@@ -1,0 +1,24 @@
+@layer base {
+  @font-face {
+    font-family: PP Eiko;
+    font-weight: 500;
+    src: local('PP Eiko') url('/static/fonts/PPEiko-Medium.otf') format('opentype');
+  }
+  @font-face {
+    font-family: PP Eiko;
+    font-weight: 900;
+    src: local('PP Eiko') url('/static/fonts/PPEiko-Heavy.otf') format('opentype');
+  }
+  @font-face {
+    font-family: PP Nikkei Journal;
+    font-weight: 400;
+    src: local('PP Nikkei Journal') url('/static/fonts/PPNikkeiJournal-Regular.otf')
+      format('opentype');
+  }
+  @font-face {
+    font-family: PP Nikkei Journal;
+    font-weight: 300;
+    src: local('PP Nikkei Journal') url('/static/fonts/PPNikkeiJournal-Light.otf')
+      format('opentype');
+  }
+}

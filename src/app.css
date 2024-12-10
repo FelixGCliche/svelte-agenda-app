@@ -1,3 +1,25 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@import '/src/lib/styles/typography';
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  html,
+  body {
+    min-height: 100%;
+    @apply bg-background;
+  }
+
+  body {
+    height: 100vh;
+  }
+}
