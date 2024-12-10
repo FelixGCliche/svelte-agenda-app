@@ -1,2 +1,6 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<h1 class="typography-display">Display</h1>
+<h2 class="typography-headline">Headline</h2>
+<h3 class="typography-title">Title</h3>
+<p class="typography-label">Label</p>
+<p class="typography-body">Body</p>
+<p class="typography-caption">Caption</p>

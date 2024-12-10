@@ -2,23 +2,48 @@
   @font-face {
     font-family: PP Eiko;
     font-weight: 500;
+    font-display: swap;
     src: local('PP Eiko') url('/static/fonts/PPEiko-Medium.otf') format('opentype');
   }
   @font-face {
     font-family: PP Eiko;
     font-weight: 900;
+    font-display: swap;
     src: local('PP Eiko') url('/static/fonts/PPEiko-Heavy.otf') format('opentype');
   }
   @font-face {
     font-family: PP Nikkei Journal;
     font-weight: 400;
+    font-display: swap;
     src: local('PP Nikkei Journal') url('/static/fonts/PPNikkeiJournal-Regular.otf')
       format('opentype');
   }
   @font-face {
     font-family: PP Nikkei Journal;
     font-weight: 300;
+    font-display: swap;
     src: local('PP Nikkei Journal') url('/static/fonts/PPNikkeiJournal-Light.otf')
       format('opentype');
+  }
+}
+
+@layer utilities {
+  .typography-display {
+    @apply lg:text-display-lg md:text-display-md sm:text-display-sm font-display;
+  }
+  .typography-headline {
+    @apply lg:text-headline-lg md:text-headline-md sm:text-headline-sm font-headline;
+  }
+  .typography-title {
+    @apply lg:text-title-lg md:text-title-md sm:text-title-sm font-title;
+  }
+  .typography-label {
+    @apply lg:text-label-lg md:text-label-md sm:text-label-sm font-label;
+  }
+  .typography-body {
+    @apply lg:text-body-lg md:text-body-md sm:text-body-sm font-body;
+  }
+  .typography-caption {
+    @apply lg:text-caption-lg md:text-caption-md sm:text-caption-sm font-caption;
   }
 }

@@ -213,6 +213,11 @@ const config = {
           letterSpacing: '1.25px'
         }
       ]
+    },
+    screens: {
+      sm: '0px',
+      md: '1024px',
+      lg: '1240px',
     }
   },
 

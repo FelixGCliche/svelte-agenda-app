@@ -16,7 +16,7 @@
   html,
   body {
     min-height: 100%;
-    @apply bg-background;
+    @apply bg-background text-on-background;
   }
 
   body {
