@@ -58,7 +58,100 @@ const config = {
       'on-background': colors.text.dark,
       'background-container': colors.background[100],
       'on-background-container': colors.background[900]
-    })
+    }),
+    fontSize: {
+      // Display
+      'display-lg': ['57px', {
+        lineHeight: '64px',
+        fontWeight: '500',
+        letterSpacing: '-0.25px'
+      }],
+      'display-md': ['45px', {
+        lineHeight: '52px',
+        fontWeight: '500',
+      }],
+      'display-sm': ['36px', {
+        lineHeight: '44px',
+        fontWeight: '500',
+        letterSpacing: '-0.25px'
+      }],
+      // Headline
+      'headline-lg': ['32px', {
+        lineHeight: '40px',
+        fontWeight: '500',
+      }],
+      'headline-md': ['28px', {
+        lineHeight: '36px',
+        fontWeight: '500',
+      }],
+      'headline-sm': ['24px', {
+        lineHeight: '32px',
+        fontWeight: '500',
+      }],
+      // Title
+      'title-lg': ['22px', {
+        lineHeight: '28px',
+        fontWeight: '500',
+      }],
+      'title-md': ['16px', {
+        lineHeight: '24px',
+        fontWeight: '500',
+        letterSpacing: '0.15px'
+      }],
+      'title-sm': ['14px', {
+        lineHeight: '20px',
+        fontWeight: '500',
+        letterSpacing: '0.10px'
+      }],
+      // Label
+      'label-lg': ['14px', {
+        lineHeight: '20px',
+        fontWeight: '500',
+        letterSpacing: '0.10px'
+      }],
+      'label-md': ['12px', {
+        lineHeight: '16px',
+        fontWeight: '500',
+        letterSpacing: '0.50px'
+      }],
+      'label-sm': ['11px', {
+        lineHeight: '16px',
+        fontWeight: '500',
+        letterSpacing: '0.50px'
+      }],
+      // Body
+      'body-lg': ['16px', {
+        lineHeight: '24px',
+        fontWeight: '500',
+        letterSpacing: '0.50px'
+      }],
+      'body-md': ['14px', {
+        lineHeight: '20px',
+        fontWeight: '500',
+        letterSpacing: '0.25px'
+      }],
+      'body-sm': ['12px', {
+        lineHeight: '16px',
+        fontWeight: '500',
+        letterSpacing: '0.40px'
+      }],
+      // Caption
+      'caption-lg': ['14px', {
+        lineHeight: '14px',
+        fontWeight: '500',
+        letterSpacing: '1.25px'
+      }],
+      'caption-md': ['12px', {
+        lineHeight: '14px',
+        fontWeight: '500',
+        letterSpacing: '1.25px'
+      }],
+      'caption-sm': ['11px', {
+        lineHeight: '12px',
+        fontWeight: '500',
+        letterSpacing: '1.25px'
+      }],
+    }
   },
 
   plugins: []
